@@ -8,6 +8,8 @@ console.log(valores.length);
 
 valores.push({ id: 1 }, false, null, "teste");
 console.log(valores);
+console.log(valores[5]);
+
 
 console.log(valores.pop());
 delete valores[0]
